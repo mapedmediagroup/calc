@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84B-cV-alI" customClass="GradientView" customModule="calc" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="-8" width="414" height="752"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fon" translatesAutoresizingMaskIntoConstraints="NO" id="7TK-hJ-PDQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="752"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92227604269999997" green="0.9559160605" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,7 +42,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91K-MP-QJ3">
-                                <rect key="frame" x="310.66666666666674" y="632.66666666666652" width="103.33333333333331" height="103.33333333333337"/>
+                                <rect key="frame" x="310.66666666666669" y="632.66666666666663" width="103.33333333333331" height="103.33333333333337"/>
                                 <color key="backgroundColor" white="1" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="35"/>
                                 <state key="normal" title="=">
@@ -59,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBV-jM-R6S">
-                                <rect key="frame" x="207.00000000000003" y="632.66666666666652" width="103.66666666666671" height="103.33333333333337"/>
+                                <rect key="frame" x="206.99999999999997" y="632.66666666666663" width="103.66666666666666" height="103.33333333333337"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title=".">
@@ -71,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D70-iu-5Xv">
-                                <rect key="frame" x="-1" y="633.66666666666652" width="208.66666666666666" height="103.33333333333337"/>
+                                <rect key="frame" x="-1.6666666666666714" y="633.66666666666663" width="208.66666666666669" height="103.33333333333337"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="0">
@@ -82,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izx-gU-YpL">
-                                <rect key="frame" x="310.66666666666674" y="529" width="103.33333333333331" height="103.66666666666663"/>
+                                <rect key="frame" x="310.66666666666669" y="529" width="103.33333333333331" height="103.66666666666663"/>
                                 <color key="backgroundColor" red="0.20055988430976868" green="0.39869779348373413" blue="0.93177098035812378" alpha="0.39932041952054792" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="+">
@@ -93,7 +87,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUK-9p-Lo9">
-                                <rect key="frame" x="207.00000000000003" y="529" width="103.66666666666671" height="103.66666666666663"/>
+                                <rect key="frame" x="206.99999999999997" y="529" width="103.66666666666666" height="103.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="3">
@@ -126,7 +120,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bau-Sx-NAz">
-                                <rect key="frame" x="310.66666666666674" y="425.66666666666674" width="103.33333333333331" height="103.33333333333326"/>
+                                <rect key="frame" x="310.66666666666669" y="425.66666666666669" width="103.33333333333331" height="103.33333333333331"/>
                                 <color key="backgroundColor" red="0.20055988430976868" green="0.39869779348373413" blue="0.93177098035812378" alpha="0.39932041952054792" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="-">
@@ -137,7 +131,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-sZ-UaG">
-                                <rect key="frame" x="207.00000000000003" y="425.66666666666674" width="103.66666666666671" height="103.33333333333326"/>
+                                <rect key="frame" x="206.99999999999997" y="425.66666666666669" width="103.66666666666666" height="103.33333333333331"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="6">
@@ -148,7 +142,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCM-li-7aV">
-                                <rect key="frame" x="103.66666666666669" y="426.66666666666674" width="103.33333333333331" height="103.33333333333326"/>
+                                <rect key="frame" x="103.66666666666669" y="426.66666666666669" width="103.33333333333331" height="103.33333333333331"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="5">
@@ -159,7 +153,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXw-57-K6d">
-                                <rect key="frame" x="0.0" y="426.66666666666674" width="103.66666666666667" height="103.33333333333326"/>
+                                <rect key="frame" x="0.0" y="426.66666666666669" width="103.66666666666667" height="103.33333333333331"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="4">
@@ -170,7 +164,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EH-Hg-xkz">
-                                <rect key="frame" x="310.66666666666674" y="322" width="103.33333333333331" height="103.66666666666669"/>
+                                <rect key="frame" x="310.66666666666669" y="322" width="103.33333333333331" height="103.66666666666669"/>
                                 <color key="backgroundColor" red="0.20055988430976868" green="0.39869779348373413" blue="0.93177098035812378" alpha="0.39932041952054792" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="x">
@@ -181,7 +175,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcx-0T-A0K">
-                                <rect key="frame" x="207.00000000000003" y="322" width="103.66666666666671" height="103.66666666666669"/>
+                                <rect key="frame" x="206.99999999999997" y="322" width="103.66666666666666" height="103.66666666666669"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="9">
@@ -214,7 +208,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAU-ew-52F">
-                                <rect key="frame" x="310.66666666666674" y="218.66666666666663" width="103.33333333333331" height="103.33333333333337"/>
+                                <rect key="frame" x="310.66666666666669" y="218.66666666666666" width="103.33333333333331" height="103.33333333333334"/>
                                 <color key="backgroundColor" red="0.20055988430976868" green="0.39869779348373413" blue="0.93177098035812378" alpha="0.39932041952054792" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="÷">
@@ -225,7 +219,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygU-fL-8u0">
-                                <rect key="frame" x="207.00000000000003" y="218.66666666666663" width="103.66666666666671" height="103.33333333333337"/>
+                                <rect key="frame" x="206.99999999999997" y="218.66666666666666" width="103.66666666666666" height="103.33333333333334"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="%">
@@ -236,7 +230,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60s-gy-L23">
-                                <rect key="frame" x="103.66666666666669" y="219.66666666666663" width="103.33333333333331" height="103.33333333333337"/>
+                                <rect key="frame" x="103.66666666666669" y="219.66666666666666" width="103.33333333333331" height="103.33333333333334"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="±">
@@ -247,7 +241,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBu-xv-9MQ">
-                                <rect key="frame" x="0.0" y="219.66666666666663" width="103.66666666666667" height="103.33333333333337"/>
+                                <rect key="frame" x="0.0" y="219.66666666666666" width="103.66666666666667" height="103.33333333333334"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
                                 <state key="normal" title="AC">
@@ -258,21 +252,21 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="PpU-rm-ojq" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
-                                <rect key="frame" x="20" y="117.66666666666666" width="371" height="75.999999999999972"/>
+                                <rect key="frame" x="20" y="117.66666666666669" width="371" height="76"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="65"/>
                                 <color key="textColor" red="0.15685060620307922" green="0.67237305641174316" blue="0.98820668458938599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Mho-ti-gzK" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
-                                <rect key="frame" x="20" y="116.66666666666666" width="377" height="75.999999999999972"/>
+                                <rect key="frame" x="20" y="117" width="377" height="76"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="65"/>
                                 <color key="textColor" red="0.79956561326980591" green="0.26859846711158752" blue="0.73272985219955444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="eQe-tA-6Qn" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
-                                <rect key="frame" x="20" y="116.66666666666666" width="374" height="75.999999999999972"/>
+                                <rect key="frame" x="20" y="117" width="374" height="76"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="65"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -304,7 +298,6 @@
                             <constraint firstItem="IXw-57-K6d" firstAttribute="top" secondItem="Kye-jX-Bro" secondAttribute="bottom" id="EqG-uq-YE1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="91K-MP-QJ3" secondAttribute="bottom" id="GLX-cN-XVD"/>
                             <constraint firstAttribute="trailing" secondItem="Bau-Sx-NAz" secondAttribute="trailing" id="IDf-EH-avC"/>
-                            <constraint firstItem="84B-cV-alI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Iwt-8H-v0H"/>
                             <constraint firstItem="fd7-WG-D5p" firstAttribute="leading" secondItem="jZr-WW-YVm" secondAttribute="trailing" id="JYd-O0-aiu"/>
                             <constraint firstItem="60s-gy-L23" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="KBA-qM-ga7"/>
                             <constraint firstItem="QBV-jM-R6S" firstAttribute="top" secondItem="KUK-9p-Lo9" secondAttribute="bottom" id="Koe-X8-gAZ"/>
@@ -317,6 +310,7 @@
                             <constraint firstAttribute="trailing" secondItem="84B-cV-alI" secondAttribute="trailing" id="OSn-Cx-S9G"/>
                             <constraint firstItem="IXw-57-K6d" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="Oqa-h8-buZ"/>
                             <constraint firstItem="jZr-WW-YVm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="P04-Ah-IrB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="84B-cV-alI" secondAttribute="bottomMargin" id="PaU-Pl-cAF"/>
                             <constraint firstItem="0EH-Hg-xkz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="QeR-ML-mMI"/>
                             <constraint firstItem="fd7-WG-D5p" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="Qpa-3o-oI1"/>
                             <constraint firstItem="D70-iu-5Xv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="R0c-cM-lBP"/>
@@ -354,7 +348,6 @@
                             <constraint firstItem="D70-iu-5Xv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" constant="1.5" id="lp7-r4-zjJ"/>
                             <constraint firstItem="KUK-9p-Lo9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="mWV-0l-z4G"/>
                             <constraint firstItem="0EH-Hg-xkz" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="nvg-22-eZp"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="84B-cV-alI" secondAttribute="bottom" id="opJ-PF-XWA"/>
                             <constraint firstItem="60s-gy-L23" firstAttribute="leading" secondItem="gBu-xv-9MQ" secondAttribute="trailing" id="pue-wG-Lkw"/>
                             <constraint firstItem="ygU-fL-8u0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="q2N-7K-GdC"/>
                             <constraint firstItem="KUK-9p-Lo9" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="qFS-16-bsq"/>
@@ -366,6 +359,7 @@
                             <constraint firstItem="L2b-sZ-UaG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="uY4-KF-wMc"/>
                             <constraint firstItem="dAU-ew-52F" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="usZ-bB-RJt"/>
                             <constraint firstItem="tCM-li-7aV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="uzY-L2-8ni"/>
+                            <constraint firstItem="84B-cV-alI" firstAttribute="topMargin" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="vJ7-MF-pkk"/>
                             <constraint firstItem="D70-iu-5Xv" firstAttribute="top" secondItem="jZr-WW-YVm" secondAttribute="bottom" id="wCR-3b-VES"/>
                             <constraint firstItem="tCM-li-7aV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="y0X-IQ-JGg"/>
                             <constraint firstItem="Mho-ti-gzK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="y19-W1-dgI"/>
@@ -389,6 +383,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fon" width="250" height="444"/>
+        <image name="fon" width="250" height="444.66665649414062"/>
     </resources>
 </document>
